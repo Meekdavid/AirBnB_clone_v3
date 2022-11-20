@@ -429,14 +429,15 @@ At this time, there are no known bugs.
 
 ## Authors
 Phase 3:
-* David Mboko | [Github](https://github.com/Meekdavid) | [LinkedIn](https://www.linkedin.com/mwlite/in/david-mboko-25bb9019b) | [Academia](https://aksu.academia.edu/DavidMboko)
+* David Mboko | [Github](https://github.com/Meekdavid) | [LinkedIn](https://www.linkedin.com/mwlite/in/david-mboko-25bb9019b) | [Academia](https://aksu.academia.edu/DavidMboko) |
+
 **Note: As per Holberton's requirements, we practice working with new Phase 1 and 2 codebases in our Phase 3 version.**
 
 Phase 2 codebase: 
-* David Mboko | [Github](https://github.com/Meekdavid) | [LinkedIn](https://www.linkedin.com/mwlite/in/david-mboko-25bb9019b) | [Academia](https://aksu.academia.edu/DavidMboko)
+* David Mboko | [Github](https://github.com/Meekdavid) | [LinkedIn](https://www.linkedin.com/mwlite/in/david-mboko-25bb9019b) | [Academia](https://aksu.academia.edu/DavidMboko) |
 
 Phase 1 codebase:
-* David Mboko | [Github](https://github.com/Meekdavid) | [LinkedIn](https://www.linkedin.com/mwlite/in/david-mboko-25bb9019b) | [Academia](https://aksu.academia.edu/DavidMboko)
+* David Mboko | [Github](https://github.com/Meekdavid) | [LinkedIn](https://www.linkedin.com/mwlite/in/david-mboko-25bb9019b) | [Academia](https://aksu.academia.edu/DavidMboko) |
 
 ## License
 
