@@ -1,4 +1,21 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
+'''
+    Implementation of the User class which inherits from BaseModel
+'''
+from os import getenv
+from sqlalchemy import Column, String
+from sqlalchemy.orm import relationship
+from models.base_model import BaseModel, Base
+
+
+class User(BaseModel, Base):
+    '''
+        Definition of the User class
+    '''
+    __tablename__ = "users"
+    if getenv("HBNB_TYPE_STORAGE", "fs") == "db":
+=======
 """ holds class User"""
 
 import models
@@ -14,17 +31,27 @@ class User(BaseModel, Base):
     """Representation of a user """
     if models.storage_t == 'db':
         __tablename__ = 'users'
+>>>>>>> main
         email = Column(String(128), nullable=False)
         password = Column(String(128), nullable=False)
         first_name = Column(String(128), nullable=True)
         last_name = Column(String(128), nullable=True)
+<<<<<<< HEAD
+        places = relationship("Place", backref="user",
+                              cascade="all, delete, delete-orphan")
+        reviews = relationship("Review", backref="user",
+                               cascade="all, delete, delete-orphan")
+=======
         places = relationship("Place", backref="user")
         reviews = relationship("Review", backref="user")
+>>>>>>> main
     else:
         email = ""
         password = ""
         first_name = ""
         last_name = ""
+<<<<<<< HEAD
+=======
 
     def __init__(self, *args, **kwargs):
         """initializes user"""
@@ -35,3 +62,4 @@ class User(BaseModel, Base):
         if name == "password":
             value = md5(value.encode()).hexdigest()
         super().__setattr__(name, value)
+>>>>>>> main
